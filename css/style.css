@@ -181,6 +181,7 @@ body {
 
     .card-title {
         margin-top: 32px;
+        padding: 0 10px;
     }
 
     .main-menu {
