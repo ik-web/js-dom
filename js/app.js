@@ -44,3 +44,18 @@ document.querySelector('.burger').addEventListener('click', function(e) {
     this.classList.toggle('active');
     document.querySelector('.main-menu').classList.toggle('active');
 });
+
+//Create a button in main menu
+let addButtonToMenu = function(item) {
+    const li = document.createElement('li');
+    const button = document.createElement('button');
+
+    //Add the button to main menu
+    mainMenu.appendChild(li.appendChild(button)); 
+
+    // Name and style for button
+    button.classList.add('menu-btn');
+    button.textContent = cars[item].name;
+
+    return button;
+};
