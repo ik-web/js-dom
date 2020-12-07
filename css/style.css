@@ -54,3 +54,19 @@ body {
     font-family: 'Bungee Shade', cursive;
     font-size: 60px;
 }
+
+
+
+/* Footer styles
+------------------------------*/
+.footer {
+    background: rgb(177, 177, 177);
+}
+
+.footer-info {
+    padding: 20px 0;
+
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+}
