@@ -33,3 +33,8 @@ const cars = [
     }
 ];
 
+const mainMenu = document.querySelector('.main-menu'); 
+const cardTitle = document.querySelector('.card-title');
+const cardImg = document.querySelector('.card-img');
+const cardText = document.querySelector('.card-text');
+
