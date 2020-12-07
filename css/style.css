@@ -55,6 +55,12 @@ body {
     font-size: 60px;
 }
 
+/* Burger 
+------------------------------*/
+.burger {
+    display: none;
+}
+
 /* Main styles
 ------------------------------*/
 .main {
@@ -196,5 +202,63 @@ body {
 
     .menu-btn {
         background:  rgb(218, 218, 218);
+    }
+
+    /* Burger styles
+    ------------------------------*/
+    .burger {
+        background: rgb(218, 218, 218);
+
+        display: block;
+        position: relative;
+        width: 48px;
+        height: 48px;
+
+        cursor: pointer;
+    }
+
+    .burger span {
+        background: rgb(0, 0, 0);
+
+        display: block;
+        position: absolute;
+        left: 6px;
+        top: 22px;
+        width: 35px;
+        height: 3px;
+    }
+
+    .burger span:before,
+    .burger span:after {
+        background: rgb(0, 0, 0);
+
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .burger span:before {
+        top: -8px;
+    }
+    .burger span:after {
+        bottom: -8px;
+    }
+
+    /* Burger-active styles
+    ------------------------------*/
+    .burger.active span{
+        background: none;
+    }
+
+    .burger.active span:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+    .burger.active span:after {
+        bottom: 0;
+        transform: rotate(-45deg);
     }
 }
