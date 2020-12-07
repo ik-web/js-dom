@@ -59,3 +59,19 @@ let addButtonToMenu = function(item) {
 
     return button;
 };
+
+//Add buttons with event listener to main menu 
+for (let i = 0; i < cars.length; i++) {
+    addButtonToMenu(i).addEventListener('click', function(e){
+        e.preventDefault();
+        cardTitle.textContent = cars[i].name;
+        cardImg.src = cars[i].img;
+        cardText.innerHTML = cars[i].text;
+
+        // Hide the menu after pressing the button
+        if (document.querySelector('.active')) {
+            document.querySelector('.burger').classList.remove('active');
+            document.querySelector('.main-menu').classList.remove('active');
+        }
+    });
+}
