@@ -262,3 +262,15 @@ body {
         transform: rotate(-45deg);
     }
 }
+
+/* Max width 540px
+------------------------------*/
+@media (max-width: 540px) {
+    .header-title {
+        font-size: 24px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+}
