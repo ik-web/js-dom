@@ -38,3 +38,9 @@ const cardTitle = document.querySelector('.card-title');
 const cardImg = document.querySelector('.card-img');
 const cardText = document.querySelector('.card-text');
 
+//Menu burger
+document.querySelector('.burger').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.classList.toggle('active');
+    document.querySelector('.main-menu').classList.toggle('active');
+});
