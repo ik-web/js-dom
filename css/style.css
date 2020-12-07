@@ -33,3 +33,24 @@ body {
     padding: 0 10px;
 }
 
+/* Header styles
+------------------------------*/
+.header {
+    background: rgb(177, 177, 177);
+    height: 80px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.header-title {
+    padding: 10px 0;
+
+    font-family: 'Bungee Shade', cursive;
+    font-size: 60px;
+}
