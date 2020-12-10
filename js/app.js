@@ -47,16 +47,17 @@ document.addEventListener("DOMContentLoaded", function(e) {
     });
 
     //Create a button in main menu
-    let addButtonToMenu = function(item) {
+    const addButtonToMenu = function(item) {
         const li = document.createElement('li');
         const button = document.createElement('button');
+        const buttonName = cars[item].name;
 
         //Add the button to main menu
         mainMenu.appendChild(li.appendChild(button)); 
 
         // Name and style for button
         button.classList.add('menu-btn');
-        button.textContent = cars[item].name;
+        button.innerHTML = buttonName;
 
         return button;
     };
