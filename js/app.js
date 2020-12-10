@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     document.querySelector('.burger').addEventListener('click', function(e) {
         e.preventDefault();
         this.classList.toggle('active');
-        document.querySelector('.main-menu').classList.toggle('active');
+        mainMenu.classList.toggle('active');
     });
 
     //Create a button in main menu
