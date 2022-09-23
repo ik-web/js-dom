@@ -1,5 +1,5 @@
 <h1 align="center">
-  JavaScript DOM (Kottans-frontend)
+  JavaScript DOM <br> (Kottans-frontend)
 </h1>
 
 <p align="center">
