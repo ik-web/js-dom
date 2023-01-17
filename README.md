@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://ik-web.github.io/js-dom/">
-    [> DEMO LINK <]
+    >> DEMO LINK <<
   </a> 
 </p>
 
