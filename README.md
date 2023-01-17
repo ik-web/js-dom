@@ -18,7 +18,7 @@
 
 Practical work on the topic JavaScript DOM (**Kottans-frontend** course)
 
-The parth of page with an interactive menu. <br>
+Part of the page with an interactive menu.
 Navigation through the menu buttons without reloading the page.
 
 > [MDN web docs - [ Document Object Model ]](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
